@@ -8,11 +8,11 @@ The solution consists in pasting javascript code in the JIRA "Announcement banne
 
 The javascript code will check to actually render the visualisations only in a board (or many) of your choice.
 
-This solution might or might not be the "best" long-term way to overlay visualisations of interest, but it's surely a quick way to prototype interesting visualisations.
+This solution might or might not be the "best" long-term way to overlay visualisations of interest, but it's surely a quick way to prototype interesting ones.
 
 ##Example
 
-The script in the .txt file of this project adds a "zombie" icon to issues that haven't changed state for more than a 100 days. This is far more effective than the default "dots" representation. The change is only done for a specified board.
+The script in the .txt file of this project adds a "zombie" icon to issues that haven't changed state for more than 100 days. This is far more effective than the default "dots" representation. The change is only done for a specified board.
 
 You can see the result in the screenshot attached - see the zombie icons inside the red circles.
 
