@@ -1,0 +1,36 @@
+<script type="text/javascript">
+
+// change this to your needs!
+var boardNameCheck = 'YOUR BOARD NAME HERE';
+var soManyDaysItNeedsAnIcon = 100;
+
+// timeout is to wait for the page to be fully loaded.
+setTimeout((function() {
+  var daysAsNumber, durationDiv, durationText, i, len, words;
+  
+  // only add the icons for a board of choice
+  if (AJS.$('#ghx-board-name').text() === boardNameCheck) {
+    
+    // find all the divs with the durations
+    durationDiv = AJS.$('.ghx-days');
+    
+    // now cycle through the divs, extract the number
+    // from the text, check if it's too old, then
+    // add the icon
+    i = 0;
+    len = durationDiv.length;
+    while (i < len) {
+      durationText = durationDiv[i].title;
+      words = durationText.split(' ');
+      daysAsNumber = parseInt(words[0]);
+      if (daysAsNumber > soManyDaysItNeedsAnIcon) {
+        AJS.$(durationDiv[i]).html('<img id="theImg" width="30px" height="30px" src="https://s-media-cache-ak0.pinimg.com/236x/7d/c9/35/7dc93597fe2cd2f7ff896779f4d5eef3.jpg" />');
+      }
+      i++;
+    }
+  }
+}), 5000);
+
+</script>
+
+
