@@ -16,4 +16,4 @@ The script in the .txt file of this project adds a "zombie" icon to issues that 
 
 You can see the result in the screenshot attached - see the zombie icons inside the red circles.
 
-![screenshot of result report in wiki](https://raw.githubusercontent.com/davidedc/Basic-JIRA-And-Wiki-automation-with-Python-And-Mechanize/master/readme-images/dependencyReportScreenshot.png)
+![adding zombie icon to stale issues](https://raw.githubusercontent.com/davidedc/Customise-JIRA-Cards-Appearance/master/readme-images/addIconsToCards.png)
