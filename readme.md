@@ -2,7 +2,7 @@
 You can quickly customise JIRA cards appearance, based on almost any field of issues.
 
 ## More info
-There is a supported way to inject javascript in each and every JIRA page served to users. This can be used to inject scripts to give a custom visualisation of your choice to any field visible in your cards (JIRA lets you choose three fields of your issues to be shown in the card). You can for example represent a ratio with a progress bar, or highlight specific situations via dedicated icons.
+There is a supported way to inject javascript in each and every JIRA page served to users. This can be used to inject scripts to give a custom visualisation of your choice to any field visible in your cards (JIRA lets you choose three fields of your issues to be shown in the card). You can for example represent progress via a progress bar (instead of via numbers), or highlight specific situations via dedicated icons.
 
 The solution consists in pasting javascript code in the JIRA "Announcement banner" configuration. This can be done by any administrator via the web UI.
 
