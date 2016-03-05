@@ -1,6 +1,8 @@
 ## Summary
 You can quickly customise JIRA cards appearance, based on almost any field of issues.
 
+(see also my other JIRA-related projects [here](https://github.com/davidedc/JIRA-composable-command-line-tools) [here](https://github.com/davidedc/Basic-JIRA-And-Wiki-automation-with-Python-And-Mechanize) [here](https://github.com/davidedc/JIRA-multi-board-view) and [here](https://github.com/davidedc/QR-and-JIRA-check-in-check-out-system))
+
 ## More info
 There is a supported way to inject javascript in each and every JIRA page served to users. This can be used to inject scripts to give a custom visualisation of your choice to any field visible in your cards (JIRA lets you choose three fields of your issues to be shown in the card). You can for example represent progress via a progress bar (instead of via numbers), or highlight specific situations via dedicated icons.
 
